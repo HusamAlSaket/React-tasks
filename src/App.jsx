@@ -9,7 +9,8 @@ import MyComponents from "./MyComponents";
 import  ProfilePicture from "./ProfilePicture";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
-
+import Array from "./Array";
+import Car from "./Car";
 
 function App() {
 
@@ -26,6 +27,9 @@ function App() {
 
   return(
     <>
+  <Car/>
+    <Array/>
+
     <ColorPicker/>
     <MyComponents/>
     <Counter/>
