@@ -1,0 +1,98 @@
+.card{
+border:1px solid hs1(0,0%,80%);
+border-radius:10px;
+box-shadow:5px 5px 5px hsla(0,0%,0%,80%);
+padding:20px;
+margin:10px;
+text-align:center;
+max-width:255px;
+display:inline-block;
+}
+.card-image{
+  width:110px;
+  height:auto;
+  margin-bottom:10px;
+  border-radius:50%;
+}
+.card-title{
+  font-family:Arial,sans-serif;
+  margin:0;
+  color: green;
+}
+.card-text{
+  font-family:Arial,sans-serif;
+  color: green;
+
+}
+.student{
+  font-family:Arial,sans-serif;
+  border:1px solid black;
+  padding:10px;
+  font-size:2em;
+}
+.student p{
+  margin:0;
+}
+
+body{
+/* background-image:url(assets/elden.png); */
+/* background-postion:center;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed; */
+}
+.clock-container{
+
+}
+.clock{
+
+}
+
+.list-category{
+  font-size:2.5em;
+  font-weight:bold;
+  color:hsl(0,0%,20%);
+  margin-bottom:10px;
+  text-align:center;
+  border:3px solid;
+  border-radius:5px;
+  background-color:hsl(185,100%,50%);
+}
+.list-items li{
+font-size:2em;
+list-style:none;
+color:hsl(0,0%,25%);
+text-align:center;
+margin:0;
+
+}
+
+.list-items li:hover{
+  color: hsl(0,0%,45%);
+  cursor:pointer;
+}
+.counter-container{
+  text-align:center;
+  font-family:Arial,sans-serif;
+
+}
+.count-display{
+  font-size:10em;
+  margin-top:0;
+  margin-bottom:50px;
+}
+.counter-button{
+  width:150px;
+  height:50px;
+  font-size:1.5em;
+  font-weight:bold;
+  margin:0px 5px;
+  background-color:red;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+.counter-button:hover{
+  background-color:cyan;
+}
