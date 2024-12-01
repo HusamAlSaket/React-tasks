@@ -11,6 +11,9 @@ import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import Array from "./Array";
 import Car from "./Car";
+import Test from "./Test";
+import Test2 from "./test2";
+
 
 function App() {
 
@@ -27,6 +30,8 @@ function App() {
 
   return(
     <>
+  <Test2/>
+  <Test/>
   <Car/>
     <Array/>
 
